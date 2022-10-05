@@ -32,7 +32,7 @@ p{
 
 
 .banner {
-	background-image: linear-gradient(rgba(142,194,234,0.6), rgba(172,146,127,0.6)), url('images/background.jpg');
+	background-image: linear-gradient(rgba(142,194,234,0.6), rgba(172,146,127,0.6)), url('images/IMG_4662.jpg');
  	background-size: cover;
  	background-position: center;
   	padding: 150px 0;
@@ -61,7 +61,7 @@ p{
 }
 
 .button-blue:hover {
-  background-color: #0D1EC6;
+  background-color: #E8E8E8;
   color: white;
 }
 
@@ -69,6 +69,7 @@ p{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
   	grid-gap: 16px;
+
 }
 
 
@@ -93,16 +94,16 @@ p{
   margin-bottom: 0;
 }
 
+.card-white:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
 .footer {
   background: #96C6CF;
   text-align: center;
   padding: 24px 0;
 }
-
-.footer p {
-  color: white;
-  }
-
 
 
 a {
